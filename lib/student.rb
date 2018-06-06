@@ -3,7 +3,7 @@ class Student
   attr_reader :id 
   
   def initialize(:name, :grade, :id = nil)
-    :name, :grade, :id = name, grade, id
+    @name, @grade, @id = name, grade, id
   end
 
   # Remember, you can access your database connection anywhere in this class
